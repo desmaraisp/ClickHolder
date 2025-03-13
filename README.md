@@ -6,3 +6,8 @@ Why not autoHotkey, you ask? Because I don't like the extra dependency on my sys
 
 ## Installing
 No dependencies or installation required, this is NativeAoT-compiled. Just download from the release.
+
+## Building
+Publishing requires the VS c++ workload. Publish using the following CLI command:
+
+`dotnet publish .\src\ClickHolder\ClickHolder.csproj -r win-x64 /p:VersionPrefix={VersionNumber}`
