@@ -10,10 +10,10 @@
 	
 	<TrayIcon.Icons>
 		<TrayIcons>
-			<TrayIcon Icon="/Assets/tray-icon.ico" ToolTipText="My ToolTip">
+			<TrayIcon Icon="/Assets/tray-icon.ico" ToolTipText="ClickHolder">
 				<TrayIcon.Menu>
 					<NativeMenu>
-						<NativeMenuItem Header="Exit" Click="OnExitButtonClick" />
+						<NativeMenuItem  Header="Exit" Click="OnExitButtonClick" />
 					</NativeMenu>
 				</TrayIcon.Menu>
 			</TrayIcon>
